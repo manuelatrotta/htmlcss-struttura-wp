@@ -22,6 +22,7 @@ body{
 main{
   padding: 10px 10px;
   background-color: green;
+
 }
 main::after{
   content: "";
@@ -44,4 +45,11 @@ main::after{
   background-color: purple;
   width: 24%;
   position: relative;
+}
+
+footer{
+  margin: 10% 0;
+  background-color: pink;
+  width: 100%;
+  height: 30px;
 }
