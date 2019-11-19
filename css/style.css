@@ -32,20 +32,28 @@ main::after{
 .float-left{
   float: left;
 }
+
 .col-left{
   background-color: purple;
   width: 30%;
+  border: 2px solid black;
+  margin-bottom: 5%;
 }
 .col-center{
   background-color: purple;
   width: 40%;
+  border: 2px solid black;
   margin:0 3%;
 }
 .col-right{
-  background-color: purple;
   width: 24%;
-  position: relative;
+  margin-bottom: 5%;
 }
+.row{
+  margin-top: 5%;
+  border: 2px solid black;
+}
+
 
 footer{
   margin: 10% 0;
